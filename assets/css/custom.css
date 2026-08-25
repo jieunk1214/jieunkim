@@ -172,3 +172,28 @@ ul.actions li { padding-bottom: 0.5em; }
     line-height: 1.5;
     margin-top: -1em;
 }
+
+
+/* ---------- KR | EN 언어 선택 ---------- */
+.language-switch {
+    font-size: 0.65em;
+    text-align: right;
+    margin-bottom: 0.8em;
+    letter-spacing: 0.05em;
+}
+
+.language-switch a {
+    color: #ffffff;
+    text-decoration: none;
+    opacity: 0.55;
+}
+
+.language-switch a:hover,
+.language-switch a.active {
+    opacity: 1;
+}
+
+.language-switch span {
+    margin: 0 0.25em;
+    opacity: 0.35;
+}
