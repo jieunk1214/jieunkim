@@ -1,0 +1,167 @@
+/* ============================================================
+   custom.css  —  Strata 템플릿에 덧입히는 추가 스타일
+   이 파일을 assets/css/custom.css 위치에 넣으세요.
+   main.css는 SASS로 컴파일된 파일이라 직접 고치지 않습니다.
+   ============================================================ */
+
+/* ---------- 상단 메뉴 ---------- */
+#nav { margin-top: 1.75em; }
+
+#nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 0.6em 1.2em;
+}
+
+#nav ul li { padding: 0; }
+
+#nav a {
+	display: inline-block;
+	color: rgba(255, 255, 255, 0.75);
+	font-size: 0.72em;
+	font-weight: 600;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding-bottom: 0.35em;
+	border-bottom: 2px solid transparent;
+	transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+#nav a:hover { color: #fff; }
+
+/* 현재 보고 있는 페이지 표시 */
+#nav a.active {
+	color: #fff;
+	border-bottom-color: #fff;
+}
+
+/* ---------- 원본 main.css 보정 ---------- */
+
+/* main.css는 화면 폭 981~1280px 구간에서 #header h1 안의 <br>을 숨깁니다.
+   이름·직위·소속이 한 줄로 이어붙는 것을 막기 위해 다시 살립니다.
+   (이름 한 줄만 쓸 거라면 이 규칙을 지우세요) */
+#header h1 br { display: inline; }
+
+/* main.css의 ul.actions는 flex이지만 줄바꿈이 없어 버튼이 4개 이상이면
+   좁은 화면에서 찌그러집니다. 줄바꿈을 허용합니다. */
+ul.actions { flex-wrap: wrap; }
+ul.actions li { padding-bottom: 0.5em; }
+
+/* ---------- 섹션 소제목 (Journal Articles, Invited Talks 등) ---------- */
+.sub-label {
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+	font-size: 0.8em;
+	color: #999;
+	margin: 2.5em 0 1em 0;
+}
+
+/* ---------- 논문·발표 목록 (둘째 줄부터 들여쓰기) ---------- */
+.hang-list {
+	list-style: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.hang-list li {
+	padding: 0 0 1.15em 1.5em;
+	text-indent: -1.5em;
+	line-height: 1.75;
+}
+
+/* ---------- 강조 배지 (Job Market Paper 등) ---------- */
+.badge {
+	display: inline-block;
+	text-indent: 0;
+	font-size: 0.65em;
+	font-weight: 700;
+	letter-spacing: 0.12em;
+	text-transform: uppercase;
+	background: #2c2c2c;
+	color: #fff;
+	padding: 0.25em 0.7em;
+	border-radius: 3px;
+	vertical-align: middle;
+	margin-left: 0.4em;
+}
+
+/* ---------- 프로젝트 · 연구비 ---------- */
+.grant-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.grant-list li {
+	padding: 0 0 1.5em 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+	margin-bottom: 1.5em;
+}
+
+.grant-list li:last-child {
+	border-bottom: 0;
+	margin-bottom: 0;
+}
+
+.grant-list .meta {
+	display: block;
+	font-size: 0.85em;
+	color: #999;
+	margin: 0.3em 0 0.5em 0;
+}
+
+/* ---------- 뉴스 (날짜 + 내용) ---------- */
+.news-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.news-list li {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0 1.5em;
+	padding: 0 0 1.25em 0;
+}
+
+.news-list time {
+	flex: 0 0 6.5em;
+	font-size: 0.85em;
+	color: #999;
+	letter-spacing: 0.05em;
+	padding-top: 0.15em;
+}
+
+.news-list .news-body { flex: 1 1 60%; }
+
+/* ---------- 학력 · 수상 · 강의 목록 ---------- */
+.plain-list {
+	list-style: none;
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+.plain-list li {
+	padding: 0 0 0.9em 0;
+	line-height: 1.6;
+}
+
+.plain-list strong { display: block; }
+
+.plain-list .meta {
+	font-size: 0.9em;
+	color: #999;
+}
+
+/* ---------- 마지막 업데이트 표시 ---------- */
+.last-updated {
+	font-size: 0.8em;
+	color: #bbb;
+	margin-top: 2em;
+}
