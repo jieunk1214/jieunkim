@@ -1,0 +1,138 @@
+<!DOCTYPE HTML>
+<!--
+	Strata by HTML5 UP (html5up.net | @ajlkn) - CCA 3.0 license
+	=> 학술 개인 홈페이지용 다중 페이지 버전 / ✏️ 표시된 부분을 본인 정보로 교체하세요
+-->
+<html lang="ko">
+	<head>
+		<title>김지은 | Researcher </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta name="description" content="Ph.D. in Public Health and part-time lecturer. Research on health policy evaluation, evidence-based policy development, and disparities in health services utilization and outcomes." />
+		<meta name="author" content="김지은" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- ▼ 추가 스타일. 모든 페이지가 이 한 파일을 공유합니다 -->
+		<link rel="stylesheet" href="assets/css/custom.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Header : 모든 페이지에 동일하게 들어갑니다 -->
+			<header id="header">
+				<div class="inner">
+				   <!-- 언어 선택 -->
+				        <div class="language-switch">
+                  <a href="index.html">KR</a>
+                  <span>|</span>
+                  <a href="index-en.html" class="active">EN</a>
+                </div>
+					
+					<!-- ✏️ images/avatar.jpg 를 본인 사진으로 교체 (정사각형 권장) -->
+					<a href="index.html" class="image avatar"><img src="images/avatar.jpg" alt="홍길동 프로필 사진" /></a>
+
+					<!-- ✏️ 이름 / 직위 / 소속 -->
+					<h1><strong>Ji Eun Kim, Ph.D.</strong><br />
+					Researcher, Part-time lecturer <br /></h1>
+
+					<div class="affiliation">
+    				Department of Health Administration and Management, <br />
+					College of Medical Sciences, Soonchunhyang University
+					</div>
+
+					<nav id="nav">
+						<ul>
+							<li><a href="index-en.html" class="active">Home</a></li>
+							<li><a href="publications-en.html">Publications</a></li>
+							<li><a href="projects-en.html">Projects &amp; Funding</a></li>
+							<li><a href="talks-en.html">Presentations</a></li>
+							<li><a href="teaching-en.html">Teaching</a></li>
+							<li><a href="news-en.html">News</a></li>
+							<li><a href="files/cv.pdf">CV</a></li>
+						</ul>
+					</nav>
+
+				</div>
+			</header>
+
+		<!-- Main : 이 페이지에만 해당하는 내용 -->
+			<div id="main">
+				<section>
+					<header class="major">
+						<h2>About</h2>
+					</header>
+
+					<!-- ✏️ 연구를 한 문장으로 요약 — 이 페이지에서 가장 중요한 줄입니다 -->
+					<p>My research focuses on data-driven and evidence-based health policy evaluation and policy development.<br />
+					   I am also interested in examining disparities and inequalities in health services utilization and health outcomes, <br />
+             to generate evidence for more equitable and effective health policies.</p>
+             
+					<p><strong>Research Interests</strong><br />
+					⦁  Data-driven and evidence-based health policy evaluation and development<br />
+					⦁  Disparities in health services utilization and health outcomes<br />
+					⦁  Health inequalities and health equity</p>
+
+          <p><strong>Research Methods</strong><br />
+					⦁  Quantitative research and statistical analysis using healthcare big data<br />
+					⦁  Healthcare data analysis using SAS<br />
+          ⦁  Survey item development and survey design and implementation<br />
+					⦁  Qualitative research and interview-based analysis</p>
+
+					<ul class="actions">
+						<li><a href="files/cv.pdf" class="button primary">CV (PDF)</a></li>
+						<li><a href="https://scholar.google.co.kr/citations?user=AbY01H4AAAAJ" class="button">Google Scholar</a></li>
+						<li><a href="https://orcid.org/0000-0002-8336-7064" class="button">ORCID</a></li>
+					</ul>
+
+					<p class="sub-label">Education</p>
+					<ul class="plain-list">
+						<!-- ✏️ 최신순 -->
+						<li><strong>Doctor of Philosophy in Public Health, Soonchunhyang University, 2026.08.</strong>
+							<span class="meta">Dissertation: &ldquo;The Impact of the Tertiary Hospital Restructuring Support Program <br />
+										on Service Volume and Case-mix in Korea&rdquo;<br />
+								 		Supervised by Professor Sun Jung Kim; Co-supervised by Professor Myung-Il Hahm</span></li>
+						<li><strong>Master of Public Health, Soonchunhyang University, 2021.08.</strong></li>
+						<li><strong>Bachelor of Health Administration, Soonchunhyang University, 2019.02.</strong></li>
+					</ul>
+
+
+					<p class="sub-label">Contact</p>
+					<ul class="labeled-icons">
+						<li>
+							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+							<a href="mailto:jieunk1214@gmail.com">jieunk1214@gmail.com</a>
+						</li>
+						<li>
+							<h3 class="icon solid fa-home"><span class="label">Office</span></h3>
+							Department of Health Administration and Management, Room 1611<br />
+							College of Medical Sciences, Soonchunhyang University, Asan
+						</li>
+					</ul>
+					<p class="last-updated">마지막 업데이트: 2026년 8월</p>
+				</section>
+			</div>
+
+		<!-- Footer : 모든 페이지에 동일하게 들어갑니다 -->
+			<footer id="footer">
+				<div class="inner">
+					<ul class="icons">
+						<!-- ✏️ 사용하지 않는 항목은 <li> 줄 전체를 삭제 -->
+						<li><a href="https://scholar.google.co.kr/citations?user=AbY01H4AAAAJ" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+						<li><a href="https://orcid.org/0000-0002-8336-7064" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+						<li><a href="mailto:jieunk1214@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+					</ul>
+					<ul class="copyright">
+						<li>&copy; Ji Eun Kim</li>
+					</ul>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<!-- 갤러리를 쓰지 않아도 main.js가 이 파일을 참조하므로 남겨둡니다 -->
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
