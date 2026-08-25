@@ -45,7 +45,9 @@
 /* main.css는 화면 폭 981~1280px 구간에서 #header h1 안의 <br>을 숨깁니다.
    이름·직위·소속이 한 줄로 이어붙는 것을 막기 위해 다시 살립니다.
    (이름 한 줄만 쓸 거라면 이 규칙을 지우세요) */
-#header h1 br { display: inline; }
+#header h1 br {
+    margin-bottom: 0.5em;
+}
 
 /* main.css의 ul.actions는 flex이지만 줄바꿈이 없어 버튼이 4개 이상이면
    좁은 화면에서 찌그러집니다. 줄바꿈을 허용합니다. */
@@ -168,9 +170,10 @@ ul.actions li { padding-bottom: 0.5em; }
 
 /* ---------- 소속기관 폰트 크기 변경 ---------- */
 .affiliation {
-    font-size: 0.8em;
-    line-height: 1.5;
-    margin-top: -1em;
+    font-size: 0.65em;
+    line-height: 1.7;
+    margin-top: 0.8em;
+    margin-bottom: 1.8em;
 }
 
 
