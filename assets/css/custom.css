@@ -165,3 +165,10 @@ ul.actions li { padding-bottom: 0.5em; }
 	color: #bbb;
 	margin-top: 2em;
 }
+
+/* ---------- 소속기관 폰트 크기 변경 ---------- */
+.affiliation {
+    font-size: 0.65em;
+    line-height: 1.5;
+    margin-top: -1em;
+}
